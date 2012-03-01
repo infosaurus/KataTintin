@@ -121,6 +121,17 @@ namespace KataTintin
                             panier.CalculeTotal());
         }
 
+        [Test]
+        public void PanierAvecFigurinesAAABBBCDonne10PctPlus5PctPlus5PctRéduction()
+        {
+            Ajouter(3, "Tintin");
+            Ajouter(3, "Milou");
+            Ajouter(1, "Capitaine Haddock");
+
+            Assert.AreEqual(4 * 0.95f * PanierTintin.PRIX_UNITAIRE_FIGURINE
+                            + 3 * 0.90f * PanierTintin.PRIX_UNITAIRE_FIGURINE,
+                            panier.CalculeTotal());
+        }
 
     }
 

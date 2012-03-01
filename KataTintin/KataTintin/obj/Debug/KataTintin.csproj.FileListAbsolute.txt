@@ -1,0 +1,6 @@
+C:\Users\Guillaume\Documents\Visual Studio 2008\Projects\KataTintin\KataTintin\bin\Debug\KataTintin.dll
+C:\Users\Guillaume\Documents\Visual Studio 2008\Projects\KataTintin\KataTintin\bin\Debug\KataTintin.pdb
+C:\Users\Guillaume\Documents\Visual Studio 2008\Projects\KataTintin\KataTintin\bin\Debug\nunit.framework.dll
+C:\Users\Guillaume\Documents\Visual Studio 2008\Projects\KataTintin\KataTintin\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Guillaume\Documents\Visual Studio 2008\Projects\KataTintin\KataTintin\obj\Debug\KataTintin.dll
+C:\Users\Guillaume\Documents\Visual Studio 2008\Projects\KataTintin\KataTintin\obj\Debug\KataTintin.pdb

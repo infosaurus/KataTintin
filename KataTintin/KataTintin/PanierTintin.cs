@@ -32,13 +32,12 @@ namespace KataTintin
 
         private PanierTintin SousPanierContenantLeReste()
         {
+            var sousPanier = new List<string>(figurines);
+            foreach (var figurine in figurines.Distinct())
+                sousPanier.Remove(figurine);
             return new PanierTintin()
             {
-                figurines = figurines.GroupBy(f => f)
-                    .Where(group => group.Count() > 1)
-                    .SelectMany(f => f)
-                    .Distinct()
-                    .ToList()
+               figurines = sousPanier
             };
         }
 
